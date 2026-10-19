@@ -26,9 +26,9 @@ parsed with `dayfirst=True`.
 ## Environment
 
 Python 3.9+ and `pip install -r requirements.txt`. One script (`riskscore_nodep_pipeline.py`)
-needs R and the cohort team's `predictpd` package
-(<https://github.com/Wolfson-PNU-QMUL/PD_Prodromal_Risk_Scores>); set `RSCRIPT` (path to
-Rscript) and `PREDICTPD_R_LIB` (the package's `R/` directory).
+needs R and the cohort team's `predictpd` package, which is not publicly available (request it
+from the PREDICT-PD study team); set `RSCRIPT` (path to Rscript) and `PREDICTPD_R_LIB` (the
+package's `R/` directory). Without it, run with `--skip-r`.
 
 ## Run
 
